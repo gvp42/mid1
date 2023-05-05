@@ -97,7 +97,7 @@ In the end, the algorithm swaps the values of A and B by temporarily storing the
 
 
 ### 2(b)  Explain the steps involved in problem solving (5M) 
-**Ans:**The structure of a C program consists of several parts, including:
+**Ans:** The structure of a C program consists of several parts, including:
 
 
 1. Preprocessor Directives: These are special commands that begin with a # symbol and are used to provide instructions to the C preprocessor. Preprocessor directives are typically used to include header files, define macros, or conditionally compile code. 
@@ -115,7 +115,7 @@ In the end, the algorithm swaps the values of A and B by temporarily storing the
 Here is an example C program that demonstrates this structure:
 
 
-```
+```c
 #include <stdio.h>
 
 
@@ -173,8 +173,8 @@ Overall, this example demonstrates the basic structure of a C program, including
 
 
 
-###3(a)  Explain the Structure of C program with an example program. (5M)
-**Ans:**The structure of a C program consists of several parts, including:
+### 3(a)  Explain the Structure of C program with an example program. (5M)
+**Ans:** The structure of a C program consists of several parts, including:
 
 
 1. Preprocessor Directives: These are special commands that begin with a # symbol and are used to provide instructions to the C preprocessor. Preprocessor directives are typically used to include header files, define macros, or conditionally compile code. 
