@@ -3,7 +3,7 @@
 ## **PPSUC MID-1 ANSWERS 2021-22
 ## (SIMPLE VERSION)**
 
-**1(a)  Explain different types of problem-solving strategies (5M)**
+### 1(a)  Explain different types of problem-solving strategies (5M)
 
 **Ans:** There are several problem-solving strategies that can be used to solve different types of problems. Here are a few examples:
 
@@ -29,7 +29,7 @@
 These are just a few examples of problem-solving strategies. The best strategy to use will depend on the specific problem you are trying to solve and the resources you have available.
 
 
-**1 (b) Define a flowchart? Draw a flowchart to find a given integer is even or odd (5M)**
+### 1 (b) Define a flowchart? Draw a flowchart to find a given integer is even or odd (5M)
 
 **Ans:** A flowchart is a graphical representation of a process or algorithm. It uses different shapes and arrows to show the flow of steps and decisions in a process.
 
@@ -64,8 +64,7 @@ In this flowchart, the process starts with the "Start" symbol and then prompts t
 Note that there are many ways to design a flowchart to solve a particular problem, and the specific shapes used and the layout of the flowchart may vary depending on the problem being solved and the preferences of the person creating the flowchart.
 
 
-2**(a) What is an algorithm? Write algorithm for swapping of two
-Numbers and analyze with example (5M)**
+### 2(a) What is an algorithm? Write algorithm for swapping of two numbers and analyze with example (5M)
 
 **Ans:** An algorithm is a step-by-step procedure that outlines how to solve a particular problem or accomplish a specific task. It's a series of instructions that a computer can understand and execute to achieve a desired outcome.
 
@@ -73,7 +72,7 @@ Numbers and analyze with example (5M)**
 Here is an algorithm for swapping two numbers:
 
 
-```
+```c
 Step 1: Input the two numbers A and B.
 Step 2: Create a temporary variable called temp.
 Step 3: Assign the value of A to temp.
@@ -97,41 +96,28 @@ Let's analyze this algorithm with an example. Suppose we want to swap the values
 In conclusion, this algorithm swaps the values of A and B by temporarily storing the value of A in a variable called temp, assigning the value of B to A, and then assigning the value of temp to B. This algorithm can be used to swap the values of any two variables.
 
 
-**2(b) Explain the steps involved in problem solving (5M)**
+### 2(b) Explain the steps involved in problem solving (5M)
 
-**Ans:** An algorithm is a step-by-step procedure that outlines how to solve a particular problem or accomplish a specific task. It's a series of instructions that a computer can understand and execute to achieve a desired outcome.
+**Ans:** Here are the basic steps involved in problem solving in C programming language:
 
+1. Understand the problem: Read the problem statement carefully and make sure you understand what the problem is asking you to do. Break the problem down into smaller, more manageable parts if needed.
 
-Here is an algorithm for swapping two numbers:
+2. Plan a solution: Think about different approaches to solve the problem. Consider the available data structures and algorithms that could be used. Choose the best approach based on the constraints of the problem.
 
+3. Write code: Write the code to implement the solution you have planned. Use the appropriate syntax of the C language.
 
-```
-Step 1: Input the two numbers A and B.
-Step 2: Create a temporary variable called temp.
-Step 3: Assign the value of A to temp.
-Step 4: Assign the value of B to A.
-Step 5: Assign the value of temp to B.
-Step 6: Output the swapped values of A and B.
-```
+4. Compile: Compile your code to check for any syntax errors and to generate an executable program.
 
+5. Test: Run your program with test data to verify that it is solving the problem correctly. If there are errors, debug your code to find and fix the problems.
 
-Let's analyze this algorithm with an example. Suppose we want to swap the values of A = 5 and B = 9.
+6. Refine: Once your program is working correctly, review your code to see if you can improve its efficiency or clarity. This might involve optimizing your algorithm, eliminating redundant code, or adding comments to make your code easier to understand.
+
+7. Document: Finally, document your code by adding comments or writing documentation to explain what your program does and how it works. This will make it easier for others to understand and use your code.
 
 
-- Step 1: We input A = 5 and B = 9.
-- Step 2: We create a temporary variable called temp.
-- Step 3: We assign the value of A (which is 5) to temp, so temp = 5.
-- Step 4: We assign the value of B (which is 9) to A, so A = 9.
-- Step 5: We assign the value of temp (which is 5) to B, so B = 5.
-- Step 6: We output the swapped values of A and B, which are A = 9 and B = 5.
+### 3(a)Explain the Structure of C program with an example program. (5M)
 
-
-In conclusion, this algorithm swaps the values of A and B by temporarily storing the value of A in a variable called temp, assigning the value of B to A, and then assigning the value of temp to B. This algorithm can be used to swap the values of any two variables.
-
-
-**3(a)Explain the Structure of C program with an example program. (5M)**
-
-**Ans:**A C program typically consists of several parts, including:
+**Ans:** A C program typically consists of several parts, including:
 
 
 1. Preprocessor Directives: These are special commands that begin with a # symbol and are used to provide instructions to the C preprocessor. They are typically used to include header files, define macros, or conditionally compile code.
@@ -149,7 +135,7 @@ In conclusion, this algorithm swaps the values of A and B by temporarily storing
 Here is a simple example C program that demonstrates this structure:
 
 
-```
+```c
 #include <stdio.h>
 
 
@@ -169,14 +155,14 @@ Then, we define the main function which prints the string "Hello, world!" using 
 Overall, this example demonstrates the basic structure of a C program, including the use of preprocessor directives, the main function, and a function call.
 
 
-**3(b) Illustrate the differences between while and do-while with example (5M)**
+### 3(b) Illustrate the differences between while and do-while with example (5M)
 **Ans:** The `while` and `do-while` loops are used in C programming language to repeat a block of code based on a certain condition. However, the key difference between them is the order in which the condition is checked.
 
 
 In a `while` loop, the condition is checked at the beginning of the loop. If the condition is true, the loop body will be executed. If the condition is false, the loop will be skipped entirely. Here is an example:
 
 
-```
+```c
 int i = 0;
 while (i < 5) {
    printf("%d ", i);
@@ -191,7 +177,7 @@ In this example, the loop condition `i < 5` is checked before the loop body is e
 On the other hand, in a `do-while` loop, the condition is checked at the end of the loop. This means that the loop body is guaranteed to execute at least once, regardless of whether the condition is true or false. Here is an example:
 
 
-```
+```c
 int i = 0;
 do {
    printf("%d ", i);
@@ -215,7 +201,7 @@ In summary, the main difference between `while` and `do-while` is that `while` c
 Here is an example of a simple function that calculates the sum of two integers:
 
 
-```
+```c
 int add(int a, int b) {
    int sum = a + b;
    return sum;
@@ -232,7 +218,7 @@ Functions in C can be categorized into several types based on their purpose and 
 1. Void Functions: These functions do not return any value. They are used to perform a specific task without returning a value. Example:
 
 
-```
+```c
 void greet() {
    printf("Hello, World!");
 }
@@ -245,7 +231,7 @@ This function simply prints the message "Hello, World!" to the screen.
 2. Functions with Return Value: These functions return a value of a specific data type. Example:
 
 
-```
+```c
 int square(int x) {
    return x * x;
 }
@@ -258,7 +244,7 @@ This function takes an integer `x` as input, calculates its square, and returns 
 3. Recursive Functions: These functions call themselves, either directly or indirectly. Example:
 
 
-```
+```c
 int factorial(int n) {
    if (n == 0) {
       return 1;
@@ -275,7 +261,7 @@ This function calculates the factorial of a number `n` using recursion.
 4. Library Functions: These functions are predefined in standard libraries and can be used by the programmer without defining them. Example:
 
 
-```
+```c
 #include <stdio.h>
 
 
@@ -290,7 +276,7 @@ The `printf` function is a library function that is defined in the `stdio.h` hea
 
 
 
-**5(a)   Explain the construction of loops with basic programming constructs. (5M)**
+### 5(a)   Explain the construction of loops with basic programming constructs. (5M)
 
 **Ans:** Loops are used in computer programming to repeat a set of instructions multiple times. The basic constructs used to create loops are the loop control variable, the loop condition, and the loop body.
 
@@ -303,11 +289,11 @@ Loops can also be nested, meaning that one loop can be placed inside another loo
 Overall, loops are a powerful tool in programming that allow a set of instructions to be executed multiple times, making code more efficient and reducing the amount of repetitive code needed.
 
 
-**5(b)   Write a c program to perform arithmetic operations using switch statement    (5M)**
+### 5(b)   Write a c program to perform arithmetic operations using switch statement    (5M)
 
 **Ans:** Here's a simple C program that performs arithmetic operations using a switch statement:
 
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -346,9 +332,9 @@ int main() {
 This program first prompts the user to enter an operator, and then two numbers. It then uses a switch statement to perform the arithmetic operation based on the operator entered. The result is then displayed to the user.
 
 
-**6(a)  Explain about program design and implementation issues in problem solving (5M).**
+### 6(a)  Explain about program design and implementation issues in problem solving (5M).
 
-**Ans: **Program design and implementation refer to the process of creating a software program that solves a specific problem. This process involves several important issues that must be considered to create an effective program.
+**Ans:** Program design and implementation refer to the process of creating a software program that solves a specific problem. This process involves several important issues that must be considered to create an effective program.
 
 Program design involves determining the requirements of the program, such as what it should do and how it should do it. This includes identifying the inputs and outputs of the program, as well as any constraints or limitations that must be taken into account. Once the requirements are determined, the program can be designed, which involves breaking the problem down into smaller, more manageable parts. This may involve creating flowcharts, pseudocode, or other types of diagrams to help visualize the program's structure.
 
@@ -371,10 +357,10 @@ Overall, program design and implementation involve a complex process of planning
 Program design and implementation refer to the process of creating a software program that solves a specific problem. This involves determining the requirements of the program, breaking down the problem into smaller, more manageable parts, and then coding the program using a programming language. The program must be tested and debugged to ensure that it works correctly and efficiently. Issues that must be considered include efficiency, reliability, scalability, maintainability, and usability. Overall, program design and implementation require a complex process of planning, coding, testing, and refining to create a high-quality software program that effectively solves a specific problem.
 
 
-**6(b)   Explain about parameter passing techniques in detail .                              (5M)**
+### 6(b)   Explain about parameter passing techniques in detail .                              (5M)
 
 
-**Ans:**Parameter passing is the process of transferring data or values between different parts of a program, such as between a function and its caller. There are several ways to pass parameters in programming, each with its own benefits and drawbacks.
+**Ans:** Parameter passing is the process of transferring data or values between different parts of a program, such as between a function and its caller. There are several ways to pass parameters in programming, each with its own benefits and drawbacks.
 
 1. Pass by value: In this technique, the value of the parameter is copied and passed to the function. Any changes made to the parameter within the function do not affect the original value outside the function. This technique is easy to use and fast, but it can be slower and use more memory if the data being passed is large.
 
