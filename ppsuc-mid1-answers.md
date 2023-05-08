@@ -298,65 +298,73 @@ int sum(int a, int b) {
 ```
 
 Functions can also be further classified based on their scope and visibility. However, these are more advanced topics and not relevant for this basic introduction to functions in C.
+
 ### 5(a)   Explain the construction of loops with basic programming constructs. (5M)
-
-**Ans:** In programming, a loop is a structure that allows you to repeat a block of code multiple times. There are different types of loops, but the most common ones are the "for" loop and the "while" loop.
-
-Here's how you can construct loops using basic programming constructs:
+**Ans:** In C programming language, loops are used to repeat a block of code multiple times until a certain condition is met. There are three basic constructs for constructing loops in C: `for`, `while`, and `do-while` loops. 
 
 1. For loop:
-A for loop is used to iterate over a sequence of values. The basic syntax of a for loop is as follows:
+The for loop is used to repeat a block of code a specific number of times. Its syntax is as follows:
 
 ```c
-for variable in sequence:
-	# block of code to be executed
+for(initialization; condition; increment/decrement)
+{
+    // code to be executed
+}
 ```
-
-The "variable" is assigned the first value in the "sequence", and the block of code is executed. Then the "variable" is assigned the next value in the "sequence", and the block of code is executed again, and so on until the end of the "sequence" is reached.
+Here, the `initialization` statement initializes a variable and sets it to an initial value before the loop starts. The `condition` statement checks if the loop should continue or not, and the loop will continue until the `condition` is false. The `increment/decrement` statement updates the variable in each iteration. 
 
 Example:
 ```c
-for i in range(5):
-	print(i)
+for(int i=1; i<=10; i++)
+{
+    printf("%d\n", i);
+}
 ```
-
-Output:
-```
-0
-1
-2
-3
-4
-```
+This will print the numbers from 1 to 10.
 
 2. While loop:
-A while loop is used to repeat a block of code as long as a certain condition is true. The basic syntax of a while loop is as follows:
+The while loop is used to repeat a block of code as long as the condition is true. Its syntax is as follows:
 
 ```c
-while condition:
-	# block of code to be executed
+while(condition)
+{
+    // code to be executed
+}
 ```
-
-The "condition" is evaluated first, and if it is true, the block of code is executed. Then the "condition" is evaluated again, and if it is still true, the block of code is executed again, and so on until the "condition" is false.
+Here, the `condition` statement checks if the loop should continue or not, and the loop will continue until the `condition` is false.
 
 Example:
 ```c
-i = 0
-while i < 5:
-	print(i)
-	i += 1
+int i=1;
+while(i<=10)
+{
+    printf("%d\n", i);
+    i++;
+}
 ```
+This will print the numbers from 1 to 10.
 
-Output:
+3. Do-while loop:
+The do-while loop is similar to the while loop, but it executes the code block at least once before checking the condition. Its syntax is as follows:
+
 ```c
-0
-1
-2
-3
-4
+do
+{
+    // code to be executed
+} while(condition);
 ```
+Here, the `condition` statement checks if the loop should continue or not, and the loop will continue until the `condition` is false.
 
-In this example, the block of code is executed as long as the variable "i" is less than 5. The variable "i" is incremented by 1 in each iteration of the loop.
+Example:
+```c
+int i=1;
+do
+{
+    printf("%d\n", i);
+    i++;
+} while(i<=10);
+```
+This will print the numbers from 1 to 10.
 
 
 
