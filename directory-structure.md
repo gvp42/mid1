@@ -74,3 +74,78 @@ Create these directory structures
        └── pics/
            └── fort.jpg (contains: "Fort image")
    ```
+
+6. **Bharat Online Education Platform**:
+   ```
+   EduBharat/
+   ├── src/
+   │   ├── main/
+   │   │   ├── EduApp.java (contains: "Main application code")
+   │   │   └── utils/
+   │   │       └── Validator.java (contains: "Input validation logic")
+   │   └── resources/
+   │       └── courses.json (contains: "Courses data")
+   └── assets/
+       └── images/
+           └── logo.png (contains: "Platform logo")
+   ```
+
+7. **Local Street Food Finder App**:
+   ```
+   StreetFoodFinder/
+   ├── app/
+   │   ├── api/
+   │   │   ├── search.py (contains: "Search functionality")
+   │   │   └── data/
+   │   │       └── vendors.db (contains: "Vendor database")
+   │   └── tests/
+   │       └── test_search.py (contains: "Search tests")
+   └── assets/
+       └── icons/
+           └── food_icon.png (contains: "Food icon")
+   ```
+
+8. **Traditional Arts and Crafts Showcase**:
+   ```
+   ArtsCraftsShowcase/
+   ├── web/
+   │   ├── public/
+   │   │   ├── index.html (contains: "Main webpage")
+   │   │   └── css/
+   │   │       └── style.css (contains: "Webpage styling")
+   │   └── scripts/
+   │       └── gallery.js (contains: "Image gallery script")
+   └── data/
+       └── artists/
+           └── profiles.json (contains: "Artist profiles data")
+   ```
+
+9. **Bharat Wildlife Tracker**:
+   ```
+   WildlifeTracker/
+   ├── src/
+   │   ├── tracker/
+   │   │   ├── TrackerMain.py (contains: "Main tracking logic")
+   │   │   └── utils/
+   │   │       └── GeoCalculator.py (contains: "Geolocation calculations")
+   │   └── db/
+   │       └── animals.json (contains: "Animal data")
+   └── resources/
+       └── maps/
+           └── national_park.jpg (contains: "Park map")
+   ```
+
+10. **Festivals and Celebrations Info App**:
+   ```
+   FestiInfo/
+   ├── core/
+   │   ├── app/
+   │   │   ├── FestiMain.cs (contains: "Main app code")
+   │   │   └── helpers/
+   │   │       └── DateHelper.cs (contains: "Date handling")
+   │   └── data/
+   │       └── festivals.xml (contains: "Festival data")
+   └── assets/
+       └── visuals/
+           └── diwali.png (contains: "Diwali festival image")
+   ```
